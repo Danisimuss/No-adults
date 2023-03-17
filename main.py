@@ -107,7 +107,7 @@ while True: # основной цикл
     if b == k - 1:
         sila += j
         k = 1000
-    if len(sl[step]["rand"]) != 0: # система случайных событий
+    if "rand" in sl[step]: # система случайных событий
         y = sl[step]["rand"][b - 1]
         if random.randint(1, 100) < y:
             if len(sl[step]["go"][b - 1]) != 0:
