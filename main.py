@@ -81,10 +81,10 @@ while True: # основной цикл
                 elif "рублей" in h and "-" not in h:
                     rub += int(h.split()[0])
                     continue
-                elif type(h) is str:
+                elif type(h) is str and "-" not in h:
                     sp.append(h)
     time.sleep(1)
-    while True: # система магазина
+    while True:
         for g in sl[step]["to go"]:
             print(sl[step]["to go"].index(g) + 1, "-", g)
         b = int(input())
