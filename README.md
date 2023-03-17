@@ -1,6 +1,5 @@
 # GAME-QUEST
 
-![My Remote Image](https://www.freepngimg.com/thumb/russia/42566-5-russia-flag-free-photo-png.png?dl=0)
 **Русская версия**
 
 **Описание игры**
@@ -16,7 +15,6 @@
 **Карта**
 https://www.mindmeister.com/map/2608548712?t=4tsH6chgYO
 
-![My Remote Image](https://3.bp.blogspot.com/-ytMaHRll1Aw/TgIXdsfw7tI/AAAAAAAAAYc/goA4so4Q_Ao/s400/EnglandFlag.png?dl=0)
 
 **English version**
 
