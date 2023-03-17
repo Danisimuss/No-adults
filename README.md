@@ -15,6 +15,7 @@
 **Карта**
 https://www.mindmeister.com/map/2608548712?t=4tsH6chgYO
 
+----
 
 **English version**
 
