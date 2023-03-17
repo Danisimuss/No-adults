@@ -68,6 +68,7 @@ while True: # основной цикл
         time.sleep(1.5)
         print(i)
     if "end" in sl[step]["to go"]: # завершение игры
+        time.sleep(5)
         break
     if len(sl[step]["items"]) != 0: # система вещей
         if len(sl[step]["items"]) == 1 and type(sl[step]["items"]) is int:
