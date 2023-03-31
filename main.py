@@ -85,14 +85,18 @@ while True: # основной цикл
                     sp.append(h)
     time.sleep(1)
     while True:
-        for g in sl[step]["to go"]:
+        for g in sl[step]["to go"]: # вывод вариантов ходов
             print(sl[step]["to go"].index(g) + 1, "-", g)
-        b = int(input())
-        if b > len(sl[step]["go"]) and "rand" not in sl[step]:
-            print("Нет такого варианта.")
-            time.sleep(1)
+        b = input() # ввод номера выбранного пути
+        if b in "0123456789" and len(b) != 0: # проверка ввода
+            if int(b) > len(sl[step]["go"]) and "rand" not in sl[step]:
+                print("Нет такого варианта.")
+                time.sleep(1)
+            else:
+                b = int(b)
+                break
         else:
-            break
+            print("Нет такого варианта.")
     if len(sl[step]["items"]) != 0:
         if "-" in str(sl[step]["items"][b - 1]) and "рублей" in str(sl[step]["items"][b - 1]):
             if int(sl[step]["items"][b - 1].split()[1]) > rub:
