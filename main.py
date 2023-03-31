@@ -71,7 +71,7 @@ while True: # основной цикл
         time.sleep(5)
         break
     if len(sl[step]["items"]) != 0: # система вещей
-        if len(sl[step]["items"]) == 1 and type(sl[step]["items"]) is int:
+        if len(sl[step]["items"]) == 1 and type(sl[step]["items"][0]) is int:
             sila += sl[step]["items"][0]
         else:
             for h in sl[step]["items"]:
