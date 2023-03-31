@@ -59,7 +59,7 @@ while True: # основной цикл
         if sila >= sl[step]["items"][1]:
             step = str(sl[step]["go"][0])
         else:
-            if (sl[step]["items"][1] - sila) >= random.randint(1, 100):
+            if sila >= random.randint(1, 100):
                 step = str(sl[step]["go"][1])
             else:
                 step = str(sl[step]["go"][0])
